@@ -56,7 +56,7 @@ function Adminloginpage() {
       <link rel="stylesheet" href="style.css" />
       <form >
         <h2 className="heading">Admin login</h2>
-        <label htmlFor="email">Admin Name:</label>
+        <label htmlFor="email">Email id:</label>
         <input type="text" value={email} onChange={handleEmailChange} required="" />
         <label htmlFor="password">Password:</label>
         <input  type="password"  value={password} onChange={handlePasswordChange} required=""/>
